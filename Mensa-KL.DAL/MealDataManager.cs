@@ -1,6 +1,7 @@
 ﻿using Mensa_KL.Models;
 using System;
 using System.Collections.Generic;
+using Microsoft.Data.Entity.Migrations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -33,7 +34,16 @@ namespace Mensa_KL.DAL
 
         public void SaveMeals(List<Meal> meals)
         {
-            ctx.MealSet.UpdateRange(meals);
+            var newMeals = from meal in meals
+                           where !ctx.MealSet.Any(m => m.MealId == meal.MealId)
+                           select meal;
+
+            var updatedMeals = meals.Except(newMeals);
+
+            ctx.MealSet.AddRange(newMeals);
+            ctx.MealSet.UpdateRange(updatedMeals);
+
+            ctx.SaveChanges();
         }
     }
 }
