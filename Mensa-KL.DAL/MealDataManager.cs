@@ -16,6 +16,11 @@ namespace Mensa_KL.DAL
             Init(ctx);
         }
 
+        internal List<Meal> GetMeals()
+        {
+            return ctx.MealSet.ToList();
+        }
+
         public List<Meal> GetMeals(DateTime start, DateTime end)
         {
             var query = from meal in ctx.MealSet
@@ -24,6 +29,11 @@ namespace Mensa_KL.DAL
                         select meal;
 
             return query.ToList();
+        }
+
+        public void SaveMeals(List<Meal> meals)
+        {
+            ctx.MealSet.UpdateRange(meals);
         }
     }
 }

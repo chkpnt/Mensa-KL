@@ -40,5 +40,18 @@ namespace Mensa_KL.Tests
             Assert.That(meals, Has.Member(new Meal { MealId = 1 }));
             Assert.That(meals, Has.Member(new Meal { MealId = 2 }));
         }
+
+        [Test]
+        public void SaveMeals()
+        {
+            var updatedMeal2 = new Meal { MealId = 2, Date = new DateTime(2015, 1, 2), Location = Location.MENSA_2, Title = "Vegetarisches Blunzegröschtl", Rating = 5.0m };
+            var newMeal3 = new Meal { MealId = 3, Date = new DateTime(2015, 1, 3), Location = Location.GRILL, Title = "Gummientensuppe" };
+            var meals = new List<Meal> { updatedMeal2, newMeal3 };
+
+            var mealDataManager = new MealDataManager(mock_MensaDbContext.Object);
+            mealDataManager.SaveMeals(meals);
+
+            mock_DbSet_Meals.Verify(x => x.UpdateRange(It.IsAny<IEnumerable<Meal>>()), Times.Once);
+        }
     }
 }
