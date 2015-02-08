@@ -1,0 +1,7 @@
+﻿<Application
+    x:Class="Mensa_KL.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Mensa_KL">
+
+</Application>
