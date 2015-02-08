@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Mensa_KL.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,6 +14,16 @@ namespace Mensa_KL.DAL
         internal MealDataManager(MensaDbContext ctx = null)
         {
             Init(ctx);
+        }
+
+        public List<Meal> GetMeals(DateTime start, DateTime end)
+        {
+            var query = from meal in ctx.MealSet
+                        where start <= meal.Date && meal.Date <= end
+                        orderby meal
+                        select meal;
+
+            return query.ToList();
         }
     }
 }

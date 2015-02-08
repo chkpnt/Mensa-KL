@@ -57,7 +57,7 @@ namespace Mensa_KL.Models
 
         public override string ToString()
         {
-            return string.Format("Meal [Date={0}, Location={1}, Price={2}, Title={3}]", Date, Location, Price, Title);
+            return string.Format("Meal #{0} [Date={1}, Location={2}, Price={3}, Title={4}]", MealId, Date, Location, Price, Title);
         }
     }
 }
