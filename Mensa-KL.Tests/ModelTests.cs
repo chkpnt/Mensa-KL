@@ -28,6 +28,17 @@ namespace Mensa_KL.Tests
         }
 
         [Test]
+        public void TestEqualityOfMeals()
+        {
+            var meal1 = new Meal { MealId = 1, Date = new DateTime(2015, 1, 1), Location = Location.MENSA_1 };
+            var meal2 = new Meal { MealId = 2, Date = new DateTime(2015, 1, 1), Location = Location.MENSA_1 };
+            var meal3 = new Meal { MealId = 1, Date = new DateTime(2015, 2, 2), Location = Location.WOK };
+
+            Assert.That(meal1, Is.Not.EqualTo(meal2));
+            Assert.That(meal1, Is.EqualTo(meal3));
+        }
+
+        [Test]
         public void TestFalscheSortierreihenfolge_Locations()
         {
             var locations = new List<Location>

@@ -47,6 +47,14 @@ namespace Mensa_KL.Models
             return Equals((Meal)obj);
         }
 
+        public override int GetHashCode()
+        {
+            unchecked
+            {
+                return MealId.GetHashCode();
+            }
+        }
+
         public override string ToString()
         {
             return string.Format("Meal [Date={0}, Location={1}, Price={2}, Title={3}]", Date, Location, Price, Title);
