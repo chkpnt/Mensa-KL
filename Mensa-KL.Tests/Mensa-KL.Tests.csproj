@@ -90,7 +90,6 @@
     <Compile Include="DALTests.cs" />
     <Compile Include="ExtensionMethods.cs" />
     <Compile Include="ModelTests.cs" />
-    <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

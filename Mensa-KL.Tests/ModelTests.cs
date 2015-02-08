@@ -39,22 +39,16 @@ namespace Mensa_KL.Tests
         }
 
         [Test]
-        public void TestFalscheSortierreihenfolge_Locations()
+        public void TestSortOrderOfLocations()
         {
-            var locations = new List<Location>
+            var unorderedLocations = new List<Location>
             {
                 Location.GRILL,
                 Location.MENSA_1,
                 Location.WOK
             };
 
-            Assert.That(locations, Is.Not.Ordered);
-        }
-
-        [Test]
-        public void TestRichtigeSortierreihenfolge_Locations()
-        {
-            var locations = new List<Location>
+            var orderedLocations = new List<Location>
             {
                 Location.MENSA_1,
                 Location.MENSA_2,
@@ -64,7 +58,8 @@ namespace Mensa_KL.Tests
                 Location.UNIQUE
             };
 
-            Assert.That(locations, Is.Ordered);
+            Assert.That(unorderedLocations, Is.Not.Ordered);
+            Assert.That(orderedLocations, Is.Ordered);
         }
     }
 }
