@@ -95,6 +95,7 @@
     <Compile Include="ExtensionMethods.cs" />
     <Compile Include="ModelTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SyncTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Mensa-KL.BL\Mensa-KL.BL.csproj">
@@ -108,6 +109,10 @@
     <ProjectReference Include="..\Mensa-KL.Models\Mensa-KL.Models.csproj">
       <Project>{56903b4b-ca96-4a97-9730-a83d2ea39005}</Project>
       <Name>Mensa-KL.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Mensa-KL.Sync\Mensa-KL.Sync.csproj">
+      <Project>{cb557d9c-bb35-48de-96a4-08892175a750}</Project>
+      <Name>Mensa-KL.Sync</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
