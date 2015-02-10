@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Mensa-KL.Tests")]
+[assembly: AssemblyTitle("Mensa-KL.BL.Tests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Mensa-KL.Tests")]
+[assembly: AssemblyProduct("Mensa-KL.BL.Tests")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("f9cfb46f-8a1e-413e-9a1e-f3424f23fe60")]
+[assembly: Guid("32b60079-dc45-47e8-a2c0-aeb2935ffbd6")]
 
 // Version information for an assembly consists of the following four values:
 //

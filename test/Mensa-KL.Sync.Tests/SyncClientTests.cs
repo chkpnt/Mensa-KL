@@ -5,11 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mensa_KL.Tests
+namespace Mensa_KL.Sync.Tests
 {
     [TestFixture]
-    public class SyncTests
+    public class SyncClientTests
     {
-        //[Test]
     }
 }

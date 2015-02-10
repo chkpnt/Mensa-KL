@@ -4,11 +4,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
-namespace Mensa_KL.Tests
+namespace Mensa_KL.Model.Tests
 {
     [TestFixture]
-    public class ModelTests
+    public class MealTests
     {
         [Test]
         public void TestSortierreihenfolge_Meals()
@@ -17,7 +18,7 @@ namespace Mensa_KL.Tests
             var meal_Day1_Wok = new Meal { Date = new DateTime(2015, 1, 1), Location = Location.WOK };
             var meal_Day2_Mensa2 = new Meal { Date = new DateTime(2015, 1, 2), Location = Location.MENSA_2 };
             var meal_Day2_Buffet = new Meal { Date = new DateTime(2015, 1, 2), Location = Location.BUFFET };
-            
+
             var unsortedMeals1 = new List<Meal> { meal_Day1_Mensa1, meal_Day2_Buffet, meal_Day1_Wok, meal_Day2_Mensa2 };
             var unsortedMeals2 = new List<Meal> { meal_Day1_Mensa1, meal_Day1_Wok, meal_Day2_Buffet, meal_Day2_Mensa2 };
             var sortedMeals = new List<Meal> { meal_Day1_Mensa1, meal_Day1_Wok, meal_Day2_Mensa2, meal_Day2_Buffet };
@@ -36,30 +37,6 @@ namespace Mensa_KL.Tests
 
             Assert.That(meal1, Is.Not.EqualTo(meal2));
             Assert.That(meal1, Is.EqualTo(meal3));
-        }
-
-        [Test]
-        public void TestSortOrderOfLocations()
-        {
-            var unorderedLocations = new List<Location>
-            {
-                Location.GRILL,
-                Location.MENSA_1,
-                Location.WOK
-            };
-
-            var orderedLocations = new List<Location>
-            {
-                Location.MENSA_1,
-                Location.MENSA_2,
-                Location.WOK,                
-                Location.GRILL,
-                Location.BUFFET,
-                Location.UNIQUE
-            };
-
-            Assert.That(unorderedLocations, Is.Not.Ordered);
-            Assert.That(orderedLocations, Is.Ordered);
         }
     }
 }

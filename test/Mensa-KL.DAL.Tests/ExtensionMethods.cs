@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mensa_KL.Tests
+namespace Mensa_KL.DAL.Tests
 {
     static class ExtensionMethods
     {

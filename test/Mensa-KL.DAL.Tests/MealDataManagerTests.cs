@@ -1,5 +1,4 @@
-﻿using Mensa_KL.DAL;
-using Mensa_KL.Models;
+﻿using Mensa_KL.Models;
 using Microsoft.Data.Entity;
 using Moq;
 using NUnit.Framework;
@@ -9,10 +8,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mensa_KL.Tests
+namespace Mensa_KL.DAL.Tests
 {
     [TestFixture]
-    public class DALTests
+    public class MealDataManagerTests
     {
         Mock<DbSet<Meal>> mock_DbSet_Meals;
         Mock<MensaDbContext> mock_MensaDbContext;
@@ -45,7 +44,7 @@ namespace Mensa_KL.Tests
         public void SaveMeals()
         {
             var updatedMeal2 = new Meal { MealId = 2, Date = new DateTime(2015, 1, 2), Location = Location.MENSA_2, Title = "Vegetarisches Blunzegröschtl", Rating = 5.0m };
-            var newMeal3 = new Meal {  Date = new DateTime(2015, 1, 3), Location = Location.GRILL, Title = "Gummientensuppe" };
+            var newMeal3 = new Meal { Date = new DateTime(2015, 1, 3), Location = Location.GRILL, Title = "Gummientensuppe" };
             var meals = new List<Meal> { updatedMeal2, newMeal3 };
 
             var mealDataManager = new MealDataManager(mock_MensaDbContext.Object);
