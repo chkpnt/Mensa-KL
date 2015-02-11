@@ -1,2 +1,3 @@
 before_build:
   - nuget restore
+  - cp assets/Mensa-KL.Windows_TemporaryKey.pfx src\Mensa-KL.Windows
