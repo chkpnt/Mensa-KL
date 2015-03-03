@@ -8,9 +8,18 @@ namespace Mensa_KL.Sync
 {
     public class MensaKLSyncClient : ISyncClient
     {
+        public string APIUrl { get; set; }
+
+        public MensaKLSyncClient()
+        {
+            APIUrl = "http://www.mensa-kl.de/?mode=mensaxml";
+        }
+
         public Task<List<Models.Meal>> FetchMeals(DateTime start, DateTime end)
         {
             throw new NotImplementedException();
         }
+
+
     }
 }

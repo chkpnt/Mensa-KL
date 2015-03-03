@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mensa>
+  <day date="2015-03-04">
+    <meal m_id="33070" price="2.15">
+      <loc name="Ausgabe 2" collection="false">2</loc>
+      <title icon="pork">Pfälzer Fleischküchle (Gl,Ei,Sf,S) mit Bratensoße (Gl,Sf), Grumbeer-Stampes (5,La,Sw) und Salat</title>
+      <mimg accuracy="100" title="Pfälzer Fleischküchle (S,Lfrei) mit Bratensoße (V,Lfrei), Grumbeer-Stampes (V) und Salat (V,Lfrei)" date="2014-12-11">hiu3s7sj6co3unz.jpg</mimg>
+      <rating amt="9">3.2</rating>
+    </meal>
+    <meal m_id="33071" price="2.15">
+      <loc name="Ausgabe 2 (veg.)" collection="false">2veg</loc>
+      <title icon="veg">Pilzbratling (Gl,Ei,La,Sl,Se,V) mit Bratensoße (Gl,Sf,V), Grumbeer-Stampes (5,La,Sw,V) und Salat (V)</title>
+      <rating amt="0">0</rating>
+    </meal>
+    <meal m_id="33072" price="0.85">
+      <loc name="Wok" collection="false">Wok</loc>
+      <title icon="chicken">Chili-Con-Carne mit Hähnchenbruststreifen (2,9,Gl,Sl,So,G), Sour Cream (9,Gl,Ei,La,So), Reis (1)</title>
+      <mimg accuracy="80" title="Chili-Con-Carne (R/4) mit Sour Cream, Reis und Salat" date="2011-01-28">dvdj140t96pdhbr.jpg</mimg>
+      <rating amt="3">2.7</rating>
+    </meal>
+    <meal m_id="33073" price="4.45">
+      <loc name="Grill" collection="false">Grill</loc>
+      <title icon="beef">Kalbsbraten (K) mit Rahmsoße (9,Gl,La,Sf) und Spätzle (1,Gl,Ei)</title>
+      <rating amt="0">0</rating>
+    </meal>
+    <meal m_id="33082" price="0.60">
+      <loc name="Buffet" collection="true">Buffet</loc>
+      <title icon="berk">Chili sin carne mit Kräuterreis (Gl,So,V,V+), bunter Bohnensalat (Sf,Sw,V,V+,5), Maiskörner in Sesambutter (Se,V,V+,1), mexikanischer Krautsalat (Ei,La,Sf,So,Sw,V,1,2,3,5,9), Blumenkohl mexikanisch (La,V), Maissalat mit Erdnüssen (En,Nu,Sw,V,V+,5), Teufelssalat mit Rindfleisch (R,Sf,Sw,1,3,5,9), Nudelsalat "Sombrero" (Ei,Gl,La,Sl,So,Sw,V,1,2,3,5)</title>
+      <rating amt="0">0</rating>
+    </meal>
+    <meal m_id="33094" price="0.00">
+      <loc name="Unique" collection="true">Unique</loc>
+      <title icon="chicken"> Tagessuppe	2,80 Hähnchenbrust in Whiskey-Pfeffersauce und Ingwer-Kartoffelnocken	7,50 Pasta in Weissweinsauce und Räucherlachs	6,50 Wirsingeintopf mit weißen Bohnen und Mandelpesto	5,90 </title>
+      <rating amt="0">0</rating>
+    </meal>
+  </day>
+  <day date="2015-03-05">
+    <meal m_id="33074" price="2.15">
+      <loc name="Ausgabe 2" collection="false">2</loc>
+      <title icon="veg">"Burrito": Tortilla mit feuriger Gemüsefüllung (2,Gl,Sl,So,V), geriebenem Käse (La,V), Sour Cream (9,Gl,Ei,La,So,V) und Eisbergsalat (V)</title>
+      <mimg accuracy="100" title="&quot;Burrito&quot;: Tortilla (2) mit feuriger Gemüse-Füllung (V/4), geriebenem Käse, Sour Cream und Eisbergsalat" date="2008-11-25">wfkf_photo.JPG</mimg>
+      <rating amt="392">4.4</rating>
+    </meal>
+    <meal m_id="33075" price="0.65">
+      <loc name="Wok" collection="false">Wok</loc>
+      <title icon="chicken">"Fajita Pueblo": Geschnetzeltes Truthahnfleisch mit Paprika, Zucchini und Zwiebeln (2,9,Gl,Sl,So,G), Tacco-Shells</title>
+      <mimg accuracy="63" title="&quot;Fajita Pueblo&quot; (4): Geschnetzeltes Truthahnfleisch mit Paprika, Zucchini und Zwiebeln, dazu Sour Cream, drei Tortillas (2) und Salat" date="2009-02-05">vvzt_Schnetzeli.JPG</mimg>
+      <rating amt="2">5</rating>
+    </meal>
+    <meal m_id="33076" price="2.45">
+      <loc name="Grill" collection="false">Grill</loc>
+      <title icon="pork">Käsegriller (1,2,3,8,La,Sf,S) mit Nudelsalat (1,3,5,9,Gl,Ei,Sw,Sf,So)</title>
+      <rating amt="4">3.5</rating>
+    </meal>
+    <meal m_id="33083" price="0.60">
+      <loc name="Buffet" collection="true">Buffet</loc>
+      <title icon="berk">Chili sin carne mit Kräuterreis (Gl,So,V,V+), bunter Bohnensalat (Sf,Sw,V,V+,5), Maiskörner in Sesambutter (Se,V,V+,1), mexikanischer Krautsalat (Ei,La,Sf,So,Sw,V,1,2,3,5,9), Blumenkohl mexikanisch (La,V), Maissalat mit Erdnüssen (En,Nu,Sw,V,V+,5), Teufelssalat mit Rindfleisch (R,Sf,Sw,1,3,5,9), Nudelsalat "Sombrero" (Ei,Gl,La,Sl,So,Sw,V,1,2,3,5)</title>
+      <rating amt="0">0</rating>
+    </meal>
+    <meal m_id="33095" price="0.00">
+      <loc name="Unique" collection="true">Unique</loc>
+      <title icon="chicken"> Tagessuppe	2,80 Kotelette mit grünen Bohnen und Bratkartoffeln	7,50 Hähnchenreispfanne mit Gemüse	6,50 Pasta mit Chili-Frischkäsesauce und grünem Peperoni	5,90 </title>
+      <rating amt="0">0</rating>
+    </meal>
+  </day>
+  <day date="2015-03-06">
+    <meal m_id="33077" price="2.40">
+      <loc name="Ausgabe 1" collection="false">1</loc>
+      <title icon="chicken">Hähnchencrossies (Gl,G) mit Curry-Dip (9,Gl,Ei,La,Sf,So), Pommes-Chips und Salat</title>
+      <mimg accuracy="75" title="Hähnchencrossies mit Curry-Dip, Pommes-Frites und Salat" date="2009-10-19">osw9_IMG_0514.JPG</mimg>
+      <rating amt="7">3.4</rating>
+    </meal>
+    <meal m_id="33078" price="2.15">
+      <loc name="Ausgabe 2" collection="false">2</loc>
+      <title icon="pork">Erbseneintopf (1,3,5,La,Sw,Sl) mit einem Wiener Würstchen (2,4,8,Sf,S) und Bio-Weizenbrötchen (Gl)</title>
+      <mimg accuracy="100" title="Erbseneintopf mit zwei Wiener Würstchen (S/R/2/3/4) und einem Bio-Weizenbrötchen" date="2011-11-11">cmy4crb7a7gw44k.jpg</mimg>
+      <rating amt="0">0</rating>
+    </meal>
+    <meal m_id="33079" price="2.15">
+      <loc name="Ausgabe 2 (veg.)" collection="false">2veg</loc>
+      <title icon="veg">Erbseneintopf (1,3,5,La,Sw,Sl,V) mit einem Apfelberliner (5,Gl,Ei,La,Sw,V) und Bio-Weizenbrötchen (Gl,V)</title>
+      <mimg accuracy="75" title="Erbseneintopf, dazu ein Bio-Weizenbrötchen und ein Apfelberliner" date="2011-11-11">iikmaaylrvn3fg1.jpg</mimg>
+      <rating amt="1">4</rating>
+    </meal>
+    <meal m_id="33096" price="0.00">
+      <loc name="Unique" collection="true">Unique</loc>
+      <title icon="fish"> Tagessuppe 	2,80 Tilapiafischfilet auf Gemüse-Kartoffelragout	7,50 Gnocchi in einer feinen Senfsauce mit Champignons	6,50 Lauwarmer Kartoffelsalat mit Wiener Würstchen	5,90 </title>
+      <rating amt="0">0</rating>
+    </meal>
+  </day>
+</mensa>
